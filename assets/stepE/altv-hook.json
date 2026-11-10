@@ -1,0 +1,9 @@
+{
+  "installed": true,
+  "lowLevelHook": true,
+  "detail": "低级键盘钩子已挂上（Alt+V 会被吞掉）",
+  "syntheticallyPressed": 2,
+  "capturedByHook": 2,
+  "raisedEvents": 2,
+  "verdict": "Alt+V 能被接收并吞掉"
+}

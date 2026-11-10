@@ -1,0 +1,17 @@
+{
+  "deviceCode": "905098332",
+  "passwordLength": 8,
+  "url": "ToDesk://connect&905098332&ub14eq0r",
+  "urlEscapedWhenNeeded": "ToDesk://connect&905098332&a%26b%23c%25d",
+  "controlArguments": [
+    "-control",
+    "-id",
+    "905098332",
+    "-passwd",
+    "ub14eq0r"
+  ],
+  "controlDescription": "-control -id 905098332 -passwd ub14eq0r",
+  "protocolRegistry": "\"D:\\todesk\\ToDesk.exe\" \"%1\"",
+  "executable": "D:\\todesk\\ToDesk.exe",
+  "executableExists": true
+}

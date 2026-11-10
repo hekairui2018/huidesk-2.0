@@ -1,0 +1,12 @@
+# 含真实屏幕数据（手机号/识别码）的探针截图与 OCR 抓取结果，不进仓库
+assets/probe/liveinput/
+assets/probe/field-before.png
+assets/probe/field-after-doublectrl.png
+assets/probe/sunlogin-before.png
+assets/probe/sunlogin-after-0.png
+assets/probe/sunlogin-after-2.png
+assets/probe/sunlogin-after-3.png
+assets/probe/field.json
+assets/probe/double-ctrl.json
+assets/probe/todesk-url.json
+assets/stepE/received.jsonl
