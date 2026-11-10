@@ -28,7 +28,7 @@ def new_canvas(w=900, h=560):
 # ---------- 1. 标准名片 ----------
 img, d = new_canvas()
 d.rectangle([40, 96, 160, 216], fill=(198, 198, 200))  # 头像
-d.text((190, 110), "张伟 深圳LED工程", font=f(34, True), fill=(20, 20, 20))
+d.text((190, 110), "张某 深圳XX工程", font=f(34, True), fill=(20, 20, 20))
 d.text((190, 180), "微信号：wxid_zhangwei2024", font=f(22), fill=(70, 70, 70))
 d.text((190, 222), "地区：广东 深圳", font=f(22), fill=(70, 70, 70))
 d.text((190, 264), "手机号：138 XXXX 5678", font=f(22), fill=(70, 70, 70))
