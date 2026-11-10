@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>GrayDesk2.0</AssemblyName>
+    <RootNamespace>RemoteConnectHelper.V2</RootNamespace>
+    <Version>2.4.1</Version>
+    <Product>灰Desk 2.0</Product>
+    <Description>灰Desk 2.0 客户连接助手</Description>
+    <ApplicationIcon>Assets/app.ico</ApplicationIcon>
+    <!-- 出包铁律：自包含单文件解压必须带原生库，一个不能漏（历史崩溃事故） -->
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RapidOcrNet" Version="4.2.0" />
+    <None Update="Tools/**/*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <None Update="Models/**/*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <None Update="Wallpapers/**/*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <None Update="ThirdParty/**/*;README.md;THIRD-PARTY.md;CHANGELOG.md" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <Resource Include="Assets/app.ico" />
+    <Resource Include="Assets/app_glyph.png" />
+    <Resource Include="Assets/app_logo.png" />
+  </ItemGroup>
+</Project>

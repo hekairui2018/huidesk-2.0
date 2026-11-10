@@ -1,0 +1,25 @@
+# 以下文件为二进制/构建产物/大体积素材，未纳入本仓库快照
+# 需要完整可运行包请从开发机 E://开发项目//GrayDesk2.0 取，或找发布包
+
+Assets\app.ico
+Assets\app_glyph.png
+Assets\app_logo.png
+Models\ch_PP-OCRv5_rec_mobile.onnx
+Tools\Diagnostics\灰Desk-主窗口自检.cmd
+Tools\OcrRepair\app.sha256
+Tools\OcrRepair\runtime\concrt140.dll
+Tools\OcrRepair\runtime\msvcp140.dll
+Tools\OcrRepair\runtime\msvcp140_1.dll
+Tools\OcrRepair\runtime\msvcp140_2.dll
+Tools\OcrRepair\runtime\msvcp140_atomic_wait.dll
+Tools\OcrRepair\runtime\msvcp140_codecvt_ids.dll
+Tools\OcrRepair\runtime\vcamp140.dll
+Tools\OcrRepair\runtime\vccorlib140.dll
+Tools\OcrRepair\runtime\vcomp140.dll
+Tools\OcrRepair\runtime\vcruntime140.dll
+Tools\OcrRepair\runtime\vcruntime140_1.dll
+Tools\OcrRepair\runtime\vcruntime140_threads.dll
+Wallpapers\樱花底图.png
+Wallpapers\樱花飘落_1920x1080.gif
+Wallpapers\雪峰底图.png
+Wallpapers\雪峰飘雪_1920x1080.gif

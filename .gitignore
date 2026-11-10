@@ -10,3 +10,6 @@ assets/probe/field.json
 assets/probe/double-ctrl.json
 assets/probe/todesk-url.json
 assets/stepE/received.jsonl
+
+# 客服机台账备份（含真实识别码，仅本地留存，不入库）
+_backup_*/
